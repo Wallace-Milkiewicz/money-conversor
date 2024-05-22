@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+      
+            <div class="conversor">
+                    <h1>Conversor de Moeda</h1>
+
+                    <div class="img">
+                        <img src="./1x/libraL.png" alt="" class="img-fisrt">
+                        <img src="./1x/libraR.png" alt="" class="img-second">    
+                    </div>
+
+                    <div id="resultado">
+                        <p>0 </p>
+                    </div>
+
+
+                    <div class="row">
+                        <input type="number" class="input-box" placeholder="Digite o valor a ser convertido aqui">
+                    </div>
+         
+                    <div class="buttons">
+                        <select id="currency-select">
+                        <option value="" disabled selected>Selecione uma moeda</option>
+                        <option value="USD">Dólar Americano (USD)</option>
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="BRL">Real Brasileiro (BRL)</option>
+                        <option value="GBP">Libra Esterlina (GBP)</option>
+                        <option value="BTC">Bitcoin (BTC)</option>
+
+                        <!-- Adicione mais opções conforme necessário -->
+                        </select>
+
+                        <span> /</span>
+
+                        <select id="to-select">
+                            <option value="" disabled selected>Selecione uma moeda</option>
+                            <option value="USD">Dólar Americano (USD)</option>
+                            <option value="EUR">Euro (EUR)</option>
+                            <option value="BRL">Real Brasileiro (BRL)</option>
+                            <option value="GBP">Libra Esterlina (GBP)</option>
+                            <option value="BTC">Bitcoin (BTC)</option>
+
+                            <!-- Adicione mais opções conforme necessário -->
+                        </select>                 
+                    </div>    
+
+                    <div class="btn-converter">
+
+                        <button> Converter </button>
+
+                    </div>
+
+                    <div class="data">
+                        
+                    </div>
+            </div>
+
+           
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

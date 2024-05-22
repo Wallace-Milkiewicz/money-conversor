@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'arial', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+     
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #112012, #005c17);
+    padding: 10px;Z
+}
+
+
+
+.conversor h1{
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+
+.conversor{
+    
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    
+}
+
+.input-box{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  
+}
+
+select{
+    display: flex;
+    border: none;
+    outline: none;
+    background-color: #004605; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px ; /* Espaçamento interno */
+    font-size: 16px;
+    border-radius: 40px; /* Borda arredondada */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+}
+
+.btn-converter{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+      
+
+}
+
+button{
+    
+    display: block;
+    flex: 1;
+    border: none;
+    background-color: #004605; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px ; /* Espaçamento interno */
+    font-size: 16px;
+    border-radius: 40px; /* Borda arredondada */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+}
+
+button:hover {
+    background-color: #006909; /* Altera a cor de fundo */
+}
+
+/* select #currency-select{
+
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    background-color: red;
+
+} */
+
+span{
+font-size: 40px;
+padding: 5px 10px;
+
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+
+    display: flex;
+    width: 200px;
+    justify-content: center;
+
+}
+
+.img-first{
+
+    display: flex;
+
+}
+
+.img-second{
+
+    display: flex;
+    margin-left:  -80px;
+
+}
+
+#resultado{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 23px;
+
+}
+
+#resultado p{
+    display: block;
+    border: none;
+    color: #004605; /* Cor do texto */
+    padding: 5px 10px;
+    
+
+}
+
+.data{
+    display: flex;
+    max-width: 540px;
+    margin:  auto ;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    font-style: italic;
+    color: #000000;
+
+}
